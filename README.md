@@ -64,8 +64,7 @@ Expected output should contain Java 21.
 
 ---
 
-## 📂 Project Structure
-    ``` 
+## 📂 Project Structure 
     Assignment_3_SQAT
     │
     ├── pom.xml
@@ -79,3 +78,8 @@ Expected output should contain Java 21.
                     └── sqat
                         └── assignment3
                             └── DemoQATest.java
+                            
+## ▶️ How to Run the Test
+Open terminal in the project root directory and run:
+  ```
+mvn clean test
